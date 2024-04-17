@@ -1,0 +1,78 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Header Styles */
+header {
+    background-color: #ffcccc; /* Pink background */
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* About Section Styles */
+.about-section {
+    background-color: #f9d5e5; /* Light pink background */
+    color: #333; /* Dark text color */
+}
+
+/* Services Section Styles */
+.services-section {
+    background-color: #ffe6ee; /* Lighter pink background */
+    color: #333; /* Dark text color */
+}
+
+/* Portfolio Section Styles */
+.portfolio-section {
+    background-color: #ffd3e0; /* Lightest pink background */
+    color: #333; /* Dark text color */
+}
+
+.portfolio-item {
+    margin-bottom: 20px;
+}
+
+.portfolio-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Contact Section Styles */
+.contact-section {
+    background-color: #ffccd6; /* Dark pink background */
+    color: #333; /* Dark text color */
+}
+
+/* Footer Styles */
+footer {
+    background-color: #ffcccc; /* Pink background */
+    color: #333; /* Dark text color */
+    text-align: center;
+    padding: 20px;
+}
